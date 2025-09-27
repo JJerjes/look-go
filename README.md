@@ -44,8 +44,8 @@ Sigue estos pasos para poner el proyecto en funcionamiento en tu máquina local:
 
 1.  **Clonar el Repositorio:**
     ```bash
-    git clone [https://www.youtube.com/watch?v=6lCAVQF2KL4](https://www.youtube.com/watch?v=6lCAVQF2KL4)
-    cd look-and-go
+   git clone [https://github.com/JJerjes/look-go.git](https://github.com/JJerjes/look-go.git) 
+   cd look-and-go
     ```
 2.  **Instalar Dependencias de Python:**
     ```bash
