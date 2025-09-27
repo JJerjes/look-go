@@ -1,0 +1,16 @@
+# =========================================
+# 1. Archivos de Python y Entorno Virtual
+# =========================================
+__pycache__/
+*.pyc
+venv/                  # ¡CRUCIAL! Ignora el directorio del entorno virtual
+.venv/                 # Por si usas esta convención
+
+# Base de datos de desarrollo (SQLite)
+db.sqlite3
+
+# =========================================
+# 2. Archivos del Sistema Operativo
+# =========================================
+.DS_Store              # macOS
+Thumbs.db              # Windows
