@@ -21,14 +21,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grand+Hotel&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
-    <script src="scripts/index.js" defer></script>
+    <script src="scripts/burguer.js" defer></script>
 </head>
 <body>
     <header>
-        <h1 class="logo-text">Look &amp; Go</h1>
-        <p class="slogan">¡Vive tu esencia cada momentos!</p>
+        <div class="branding">
+            <h1 class="logo-text">Look &amp; Go</h1>
+            <p class="slogan">¡Vive tu esencia cada momentos!</p>
+        </div>
     
-        <nav aria-label="Navegacion principal">
+        <nav id="nav" class="nav" aria-label="Navegacion principal">
             <ul>
                 <li><a href="#" title="Inicio">Inicio</a></li>
                 <li><a href="#" title="Nosotros">Nosotros</a></li>
@@ -36,7 +38,7 @@
                 <li><a href="#" title="Contactanos">Contactanos</a></li>
             </ul>
         </nav>
-        <button id="menu" aria-label="Toggle manu"></button>
+        <button id="menu" class="menu" aria-label="Toggle manu"></button>
     </header>
 <!-- 
     <main>
