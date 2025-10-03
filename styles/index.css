@@ -200,22 +200,25 @@ FOOTER
 footer {
     grid-area: footer;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding: 20px;
-    background-color: #f2f2f248
+    background-color: #f2f2f2d2
 }
 
 .article-one,
-.article-two {
+.article-two,
+.article-three {
     padding: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .article-one {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
 }
 
 .article-one a {
@@ -242,7 +245,7 @@ footer {
 .article-two {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
 }
 
 .article-two h3 {
@@ -271,13 +274,14 @@ footer {
 
 .article-three section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .article-three img {
     width: 25px;
     height: auto;
     transition: transform 0.8s ease;
+    margin: 4px;
 }
 
 .article-three img:hover {
@@ -354,19 +358,11 @@ MEDIA QUERY
         max-width: 360px;
     }
 
-    .article-three {
-        display: flex;
-        align-items: center;
-    }
-
-    .article-three section {
-        display: flex;
+    footer {
         flex-direction: row;
+        justify-content: space-between;
     }
 
-    .article-three a {
-        margin: 4px;
-    }
 }
 
 @media (min-width: 1024px) {
