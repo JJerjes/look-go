@@ -3,7 +3,7 @@
         "nombre": "Conjunto de Encaje Negro",
         "precioAnterior": 129.90,
         "precio": 99.90,
-        "imagen": "/images/lencerias/lenceria.avif",
+        "imagen": "images/lencerias/lenceria.avif",
         "descripcion": "Conjunto de encaje elegante con detalles florales. Sensual y cómodo.",
         "oferta": true
     },

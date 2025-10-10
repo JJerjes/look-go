@@ -3,7 +3,7 @@
         "nombre": "Capucha Negra Básica",
         "precioAnterior": 109.90,
         "precio": 89.90,
-        "imagen": "../images/capuchas/capucha.jpg",
+        "imagen": "images/capuchas/capucha.jpg",
         "descripcion": "Capucha de algodón unisex, perfecta para días frescos.",
         "oferta": true
     },
@@ -11,7 +11,7 @@
         "nombre": "Capucha Negra Básica",
         "precioAnterior": 109.90,
         "precio": 89.90,
-        "imagen": "/images/capuchas/capucha.jpg",
+        "imagen": "images/capuchas/capucha.jpg",
         "descripcion": "Capucha de algodón unisex, perfecta para días frescos.",
         "oferta": true
     },
