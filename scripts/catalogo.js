@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
     const contenedor = document.getElementById("contenedor-productos");
-    const basePath = window.basePath || ""; // Obtiene basePath definido en cada HTML
+    const basePath = window.basePath || ""; // Definido en el HTML
 
     const path = window.location.pathname;
     let categoria = '';
@@ -12,13 +12,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     } else if (path.includes('moda')) {
         categoria = 'modas';
     } else {
-        console.error('No se pudo determinar la categoria desde la URL');
+        console.error('No se pudo determinar la categoría desde la URL');
         contenedor.innerHTML = '<p>Categoría no encontrada.</p>';
         return;
     }
 
     try {
-        // Fetch usando basePath para que funcione desde subcarpetas
+        // Usa basePath también en el fetch para asegurar compatibilidad
         const respuesta = await fetch(`${basePath}data/${categoria}.json`);
         const productos = await respuesta.json();
 
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                 ? `<span class="precio-anterior">S/ ${producto.precioAnterior.toFixed(2)}</span>`
                 : "";
 
-            // Usa basePath también para la ruta de imagen (asegúrate que en JSON las rutas no comienzan con '/')
+            // Usa basePath para la imagen también
             card.innerHTML = `
                 <img src="${basePath}${producto.imagen}" alt="${producto.nombre}" class="catalogo-img">
                 ${ofertaHTML}
