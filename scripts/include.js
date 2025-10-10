@@ -24,3 +24,4 @@ document.addEventListener("DOMContentLoaded", async () => {
         document.body.classList.toggle("menu-open");
     });
 })
+
