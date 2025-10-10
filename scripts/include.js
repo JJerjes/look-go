@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", async () => {
+    const basePath = window.basePath || "";
     const loadComponent = async (selector, url) => {
         const container = document.querySelector(selector)
         try {
-            const res = await fetch(`/${url}`);
+            const res = await fetch(basePath + url);
             if (!res.ok) throw new Error(`HTTP ${res.status}`);
             const html = await res.text();
             container.innerHTML = html;
