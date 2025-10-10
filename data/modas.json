@@ -1,0 +1,74 @@
+[
+    {
+        "nombre": "Cartera Tote Cuero Beige",
+        "precioAnterior": 199.90,
+        "precio": 159.90,
+        "imagen": "/images/modas/bolso.avif",
+        "descripcion": "Cartera tipo tote de cuero sintético color beige, espaciosa y elegante.",
+        "oferta": true
+    },
+    {
+        "nombre": "Cartera Cruzada Negra Minimal",
+        "precioAnterior": 149.90,
+        "precio": 119.90,
+        "imagen": "/images/modas/bolso.avif",
+        "descripcion": "Cartera pequeña y práctica con correa cruzada, diseño minimalista.",
+        "oferta": false
+    },
+    {
+        "nombre": "Cartera Shopper Rosa Palo",
+        "precioAnterior": 189.90,
+        "precio": 149.90,
+        "imagen": "/images/modas/bolso.avif",
+        "descripcion": "Cartera tipo shopper color rosa palo con compartimentos internos.",
+        "oferta": true
+    },
+    {
+        "nombre": "Cartera de Hombro Texturizada",
+        "precioAnterior": 179.90,
+        "precio": 139.90,
+        "imagen": "/images/modas/bolso.avif",
+        "descripcion": "Diseño moderno con textura y acabado mate. Ideal para uso diario.",
+        "oferta": false
+    },
+    {
+        "nombre": "Cartera Estructurada Color Vino",
+        "precioAnterior": 209.90,
+        "precio": 169.90,
+        "imagen": "/images/modas/bolso.avif",
+        "descripcion": "Cartera estructurada en color vino con detalles metálicos dorados.",
+        "oferta": true
+    },
+    {
+        "nombre": "Billetera Clásica Negra",
+        "precioAnterior": 69.90,
+        "precio": 49.90,
+        "imagen": "/images/modas/bolso.avif",
+        "descripcion": "Billetera de cuero sintético negro, diseño sobrio con múltiples compartimentos.",
+        "oferta": false
+    },
+    {
+        "nombre": "Billetera Rosada con Broche",
+        "precioAnterior": 74.90,
+        "precio": 54.90,
+        "imagen": "/images/modas/bolso.avif",
+        "descripcion": "Billetera femenina en tono rosado, cierre con broche dorado.",
+        "oferta": true
+    },
+    {
+        "nombre": "Billetera Pequeña con Cremallera",
+        "precioAnterior": 59.90,
+        "precio": 44.90,
+        "imagen": "/images/modas/bolso.avif",
+        "descripcion": "Compacta y segura, ideal para llevar en bolsos pequeños.",
+        "oferta": false
+    },
+    {
+        "nombre": "Billetera Estampada Floral",
+        "precioAnterior": 79.90,
+        "precio": 59.90,
+        "imagen": "/images/modas/bolso.avif",
+        "descripcion": "Billetera con estampado floral y acabado brillante.",
+        "oferta": true
+    }
+]

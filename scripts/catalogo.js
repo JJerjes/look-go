@@ -1,8 +1,23 @@
 document.addEventListener("DOMContentLoaded", async () => {
     const contenedor = document.getElementById("contenedor-productos");
 
+    const path = window.location.pathname;
+    let categoria = '';
+
+    if (path.includes('capuchas')) {
+        categoria = 'capuchas';
+    } else if (path.includes('lenceria')) {
+        categoria = 'lencerias';
+    } else if (path.includes('moda')) {
+        categoria = 'modas';
+    } else {
+        console.error('No se pudo determinar la categoria desde la URL');
+        contenedor.innerHTML = '<p>Categoría no encontrada.</p>'
+        return;
+    }
+
     try {
-        const respuesta = await fetch("/data/capuchas.json");
+        const respuesta = await fetch(`/data/${categoria}.json`);
         const productos = await respuesta.json();
 
         productos.forEach(producto => {
