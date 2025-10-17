@@ -1,11 +1,29 @@
 document.addEventListener("DOMContentLoaded", async () => {
     const basePath = window.basePath || "";
+
     const loadComponent = async (selector, url) => {
         const container = document.querySelector(selector)
         try {
             const res = await fetch(basePath + url);
             if (!res.ok) throw new Error(`HTTP ${res.status}`);
-            const html = await res.text();
+            let html = await res.text();
+            if (basePath === "../") {
+                html = html.replaceAll('href="index.html"', 'href="../index.html"');
+                html = html.replaceAll('href="categorias/', 'href="../categorias/');
+                html = html.replaceAll('href="styles/', 'href="../styles/');
+                html = html.replaceAll('href="images/', 'href="../images/');
+
+                html = html.replaceAll('src="scripts/', 'src="../scripts/');
+                html = html.replaceAll('src="images/', 'src="../images/');
+
+                html = html.replaceAll('href="/styles/', 'href="../styles/');
+                html = html.replaceAll('href="/images/', 'href="../images/');
+
+                html = html.replaceAll('src="/scripts/', 'src="../scripts/');
+                html = html.replaceAll('src="/images/', 'src="../images/');
+            }
+
+
             container.innerHTML = html;
         } catch (err) {
             console.error(`Error cargando ${url}:`, err);
