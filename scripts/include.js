@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     await loadComponent("#header-placeholder", "includes/header.html");
     await loadComponent("#footer-placeholder", "includes/footer.html");
+    await loadComponent("#modal-placeholder", "includes/modal.html")
 
     // Aquí ya está cargado el header, ahora corre burguer.js
     const menuButton = document.getElementById("menu");

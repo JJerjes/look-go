@@ -1,26 +1,3 @@
-// const menuBtn = document.querySelector('#menu');
-// const nav = document.querySelector('#nav');
-// const body = document.body;
-
-// menuBtn.addEventListener('click', () => {
-//     menuBtn.classList.toggle('open')
-//     nav.classList.toggle('open')
-//     body.classList.toggle('menu-open')
-// })
-
-// // Cierra el menú cuando haces clic en un enlace del nav
-// document.querySelectorAll('.nav a').forEach(link => {
-//     link.addEventListener('click', () => {
-//         document.getElementById('menu').classList.remove('open');
-//         document.getElementById('nav').classList.remove('open');
-//         document.body.classList.remove('menu-open');
-
-//         // Elimina el margen dinámico en el <main>
-//         document.querySelector('main').style.marginTop = '';
-//     });
-// });
-
-
 const menuBtn = document.getElementById('menu');
 const nav = document.getElementById('nav');
 const body = document.body;

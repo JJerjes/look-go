@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", async () => {
+    const productosGuardados = localStorage.getItem("productosSeleccionados");
+    window.productosSeleccionados = productosGuardados ? JSON.parse(productosGuardados) : [];
+
+    // controlarVisibilidadModal();
+
     const contenedor = document.getElementById("contenedor-productos");
     const basePath = window.basePath || ""; // Definido en el HTML
 
@@ -18,6 +23,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     try {
+
+        console.log('fetch URL:', `${basePath}data/${categoria}.json`);
+
         // Usa basePath también en el fetch para asegurar compatibilidad
         const respuesta = await fetch(`${basePath}data/${categoria}.json`);
         const productos = await respuesta.json();
@@ -48,10 +56,58 @@ document.addEventListener("DOMContentLoaded", async () => {
             `;
 
             contenedor.appendChild(card);
+
+            const botonElegir = card.querySelector('.button-capucha');
+            botonElegir.addEventListener('click', () => {
+                agregarProductoSeleccionado(producto)
+            });
         });
+
+        actualizarListaSeleccionados()
 
     } catch (error) {
         console.error("Error al cargar el catálogo:", error);
         contenedor.innerHTML = "<p>Error al cargar productos.</p>";
     }
 });
+
+function agregarProductoSeleccionado(producto) {
+    window.productosSeleccionados.push(producto);
+    localStorage.setItem("productosSeleccionados", JSON.stringify(window.productosSeleccionados));
+    actualizarListaSeleccionados();
+}
+
+function actualizarListaSeleccionados() {
+    const lista = document.querySelector('#lista-seleccionados');
+    const totalElemento = document.querySelector('#total-precio');
+
+    if (!lista || !totalElemento) return;
+
+    lista.innerHTML = "";
+    let total = 0;
+
+    window.productosSeleccionados.forEach((producto, index) => {
+        const li = document.createElement("li");
+        li.innerHTML = `
+            ${producto.nombre} - S/ ${producto.precio.toFixed(2)}
+            <button class="eliminar-producto" data-index="${index}">✕</button>
+        `;
+        lista.appendChild(li);
+        total += producto.precio;
+    });
+
+    totalElemento.textContent = `Total: S/ ${total.toFixed(2)}`;
+
+    document.querySelectorAll(".eliminar-producto").forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            const index = Number(e.target.getAttribute('data-index'));
+            window.productosSeleccionados.splice(index, 1);
+            localStorage.setItem("productosSeleccionados", JSON.stringify(window.productosSeleccionados));
+            actualizarListaSeleccionados();
+            // controlarVisibilidadModal();
+        });
+    });
+    // controlarVisibilidadModal();
+    if (window.mostrarModal) window.mostrarModal();
+
+}

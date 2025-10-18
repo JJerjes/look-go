@@ -1,0 +1,161 @@
+/* Contenedor general del modal */
+#modal-placeholder {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-height: 50vh;
+    /* Ocupa hasta la mitad de la pantalla verticalmente */
+    background-color: white;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow-y: auto;
+    transition: max-height 0.3s ease;
+    z-index: 1000;
+}
+
+/* Cuando el modal está minimizado */
+#modal-placeholder.minimized {
+    max-height: 40px;
+    /* Solo muestra una barra pequeña */
+    overflow: hidden;
+    cursor: pointer;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Título o cabecera del modal */
+#modal-placeholder .modal-header {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Botón minimizar */
+#modal-placeholder .minimize-btn {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #666;
+}
+
+#modal-placeholder .minimize-btn:hover {
+    color: #333;
+}
+
+/* Lista de productos en el modal */
+#modal-placeholder ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 20px;
+    max-height: calc(50vh - 50px);
+    overflow-y: auto;
+}
+
+/* Elementos de la lista */
+#modal-placeholder li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#modal-placeholder li button {
+    background: transparent;
+    border: none;
+    color: #c00;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#modal-placeholder li button:hover {
+    color: #900;
+}
+
+/* Total */
+#modal-placeholder .total {
+    font-weight: bold;
+    padding: 10px 20px;
+    border-top: 1px solid #ddd;
+    text-align: right;
+    background-color: #f9f9f9;
+}
+
+.modal i.bi {
+    font-size: 1rem;
+    /* Tamaño decente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1px;
+}
+
+/* === BOTONES CON ICONOS DE BOOTSTRAP === */
+
+/* Estilo para botones que tienen solo iconos (como minimizar/restaurar) */
+.minimizar-modal,
+#restaurar-modal {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+.minimizar-modal:hover,
+#restaurar-modal:hover {
+    color: #000;
+}
+
+/* Íconos dentro de los botones */
+.minimizar-modal i,
+#restaurar-modal i {
+    font-size: 1.2rem;
+    margin-right: 4px;
+}
+
+/* === BOTÓN HACER PEDIDO === */
+
+#modal-placeholder .modal-footer {
+    padding: 12px 20px;
+    border-top: 1px solid #ddd;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#hacer-pedido {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#hacer-pedido:hover {
+    background-color: #0056b3;
+}
+
+#total-precio {
+    font-weight: bolder;
+    padding: 20px;
+}
