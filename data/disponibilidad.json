@@ -1,0 +1,200 @@
+{
+    "estaciones_del_tren": {
+        "0": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Junior"
+            }
+        ],
+        "1": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Kimberly"
+            }
+        ],
+        "2": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Jerjes"
+            }
+        ],
+        "3": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Bertha"
+            }
+        ],
+        "4": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Junior"
+            }
+        ],
+        "5": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Kimberly"
+            }
+        ],
+        "6": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Jerjes"
+            }
+        ],
+        "7": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Bertha"
+            }
+        ],
+        "8": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Junior"
+            }
+        ],
+        "9": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Kimberly"
+            }
+        ],
+        "10": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Jerjes"
+            }
+        ],
+        "11": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Bertha"
+            }
+        ],
+        "12": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Junior"
+            }
+        ],
+        "13": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Kimberly"
+            }
+        ],
+        "14": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Jerjes"
+            }
+        ],
+        "15": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Bertha"
+            }
+        ],
+        "16": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Junior"
+            }
+        ],
+        "17": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Kimberly"
+            }
+        ],
+        "18": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Jerjes"
+            }
+        ],
+        "19": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Bertha"
+            }
+        ],
+        "20": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Junior"
+            }
+        ],
+        "21": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Kimberly"
+            }
+        ],
+        "22": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Jerjes"
+            }
+        ],
+        "23": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Bertha"
+            }
+        ],
+        "24": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Junior"
+            }
+        ],
+        "25": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Kimberly"
+            }
+        ],
+        "26": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Jerjes"
+            }
+        ],
+        "27": [
+            {
+                "inicio": "09:00",
+                "fin": "21:00",
+                "repre": "Bertha"
+            }
+        ]
+    }
+}

@@ -1,74 +1,145 @@
 [
     {
+        "id": 1,
         "nombre": "Conjunto de Encaje Negro",
         "precioAnterior": 129.90,
         "precio": 99.90,
         "imagen": "images/lencerias/lenceria.avif",
         "descripcion": "Conjunto de encaje elegante con detalles florales. Sensual y cómodo.",
-        "oferta": true
+        "oferta": true,
+        "stock": 15,
+        "tallas": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "categoria": "lenceria"
     },
     {
+        "id": 2,
         "nombre": "Conjunto de Lencería Roja",
         "precioAnterior": 139.90,
         "precio": 109.90,
         "imagen": "images/lencerias/lenceria.avif",
         "descripcion": "Set de lencería color rojo pasión, ideal para ocasiones especiales.",
-        "oferta": true
+        "oferta": true,
+        "stock": 12,
+        "tallas": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "categoria": "lenceria"
     },
     {
+        "id": 3,
         "nombre": "Conjunto Blanco Clásico",
         "precioAnterior": 119.90,
         "precio": 89.90,
         "imagen": "images/lencerias/lenceria.avif",
         "descripcion": "Diseño clásico y delicado en blanco. Perfecto para el día a día.",
-        "oferta": false
+        "oferta": false,
+        "stock": 10,
+        "tallas": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "categoria": "lenceria"
     },
     {
+        "id": 4,
         "nombre": "Body de Encaje Transparente",
         "precioAnterior": 149.90,
         "precio": 119.90,
         "imagen": "images/lencerias/lenceria.avif",
         "descripcion": "Body de encaje con transparencias y escote profundo.",
-        "oferta": true
+        "oferta": true,
+        "stock": 8,
+        "tallas": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "categoria": "lenceria"
     },
     {
-        "nombre": "Babydoll Rosa Pastel",
-        "precioAnterior": 129.90,
-        "precio": 99.90,
-        "imagen": "images/lencerias/lenceria.avif",
-        "descripcion": "Babydoll suave y coqueto en tono rosa pastel con detalles de encaje.",
-        "oferta": false
-    },
-    {
-        "nombre": "Conjunto Bordado Floral",
-        "precioAnterior": 139.90,
-        "precio": 109.90,
-        "imagen": "images/lencerias/lenceria.avif",
-        "descripcion": "Conjunto con bordados florales y acabado premium.",
-        "oferta": true
-    },
-    {
-        "nombre": "Liguero de Encaje Negro",
-        "precioAnterior": 89.90,
-        "precio": 69.90,
-        "imagen": "images/lencerias/lenceria.avif",
-        "descripcion": "Liguero sexy de encaje negro con tiras ajustables.",
-        "oferta": false
-    },
-    {
-        "nombre": "Conjunto Satinado Vino",
+        "id": 5,
+        "nombre": "Body de Encaje Transparente",
         "precioAnterior": 149.90,
         "precio": 119.90,
         "imagen": "images/lencerias/lenceria.avif",
-        "descripcion": "Lencería de satén en tono vino, suave al tacto y elegante.",
-        "oferta": true
+        "descripcion": "Body de encaje con transparencias y escote profundo.",
+        "oferta": true,
+        "stock": 8,
+        "preventa": true,
+        "tallas": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "categoria": "lenceria"
     },
     {
-        "nombre": "Set Deportivo Sexy",
-        "precioAnterior": 109.90,
-        "precio": 89.90,
+        "id": 6,
+        "nombre": "Body de Encaje Transparente",
+        "precioAnterior": 149.90,
+        "precio": 119.90,
         "imagen": "images/lencerias/lenceria.avif",
-        "descripcion": "Conjunto con estilo deportivo y sexy. Ideal para estar cómoda sin perder el estilo.",
-        "oferta": false
+        "descripcion": "Body de encaje con transparencias y escote profundo.",
+        "oferta": true,
+        "stock": 8,
+        "preventa": true,
+        "tallas": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "categoria": "lenceria"
+    },
+    {
+        "id": 7,
+        "nombre": "Body de Encaje Transparente",
+        "precioAnterior": 149.90,
+        "precio": 119.90,
+        "imagen": "images/lencerias/lenceria.avif",
+        "descripcion": "Body de encaje con transparencias y escote profundo.",
+        "oferta": true,
+        "stock": 8,
+        "preventa": true,
+        "tallas": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "categoria": "lenceria"
+    },
+    {
+        "id": 8,
+        "nombre": "Body de Encaje Transparente",
+        "precioAnterior": 149.90,
+        "precio": 119.90,
+        "imagen": "images/lencerias/lenceria.avif",
+        "descripcion": "Body de encaje con transparencias y escote profundo.",
+        "oferta": true,
+        "stock": 8,
+        "preventa": true,
+        "tallas": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "categoria": "lenceria"
     }
 ]

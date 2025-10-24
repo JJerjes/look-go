@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../styles/formulario.css" />
+    <title>Confirmar Entrega de Pedido | Look & Go</title>
+    <script src="../scripts/formulario.js" defer></script>
+</head>
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <main>
+        <section class="container">        
+            <section class="formulario">
+                <h2>Formulario</h2>
+                <form action="" method="post" class="form" id="contact-form">
+                    <fieldset>
+                        <legend>Informacion Personal</legend>
+                        <label for="name">Nombre Completo:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="dni">DNI:</label>
+                        <input type="text" id="dni" name="dni" maxlength="8" pattern="\d{8}" required title="Debe contener exactamente 8 dígitos">
+
+                        <label for="phone">Teléfono:</label>
+                        <input type="tel" id="phone" name="phone" required>
+
+                        <label for="email">Correo Electronico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="branch">Estaciones del tren:</label>
+                        <select name="branch" id="branch" required>
+                            <option value="" disabled selected>Seleccione una estacion</option>
+                            <option value="villa_el_salvador">Villa El Salvador</option>
+                            <option value="atocongo">Atocongo</option>
+                            <option value="san_juan">San Juan</option>
+                            <option value="villa_maria">Villa María</option>
+                            <option value="los_jardines">Los Jardines</option>
+                            <option value="piramide_del_sol">Pirámide del Sol</option>
+                            <option value="caja_de_agua">Caja de Agua</option>
+                            <option value="presbitero_maestro">Presbítero Maestro</option>
+                            <option value="miguel_grau">Miguel Grau</option>
+                            <option value="la_cultura">La Cultura</option>
+                            <option value="angamos">Angamos</option>
+                            <option value="san_borja_sur">San Borja Sur</option>
+                            <option value="san_borja_centro">San Borja Centro</option>
+                            <option value="gamarra">Gamarra</option>            
+                            <option value="nicolas_arriola">Nicolás Arriola</option>
+                            <option value="el_angel">El Ángel</option>
+                            <option value="santa_rosa">Santa Rosa</option>
+                            <option value="san_carlos">San Carlos</option>
+                            <option value="los_postes">Los Postes</option>
+                            <option value="villa_maria_del_triunfo">Villa María del Triunfo</option>
+                            <option value="san_juan_de_miraflores">San Juan Miraflores</option>
+                            <option value="bayovar">Bayóvar</option>
+                        </select>                     
+
+                        <label for="date">Fecha de entrega:</label>
+                        <input type="date" id="date" name="date" required>
+
+                        <label for="hour">Horario de entrega:</label>
+                        <select name="hour" id="hour" required>
+                            <option value="" disabled selected>Seleccione hora</option>
+                        </select>
+
+                        <legend>Datos para la entrega</legend>
+                        <label for="section">Representante de entrega:</label>
+                        <input type="text" id="section" name="section" readonly>
+                    </fieldset>
+                        
+                    <fieldset>
+                        <legend>Resumen de productos seleccionados</legend>
+                        <ul id="lista-seleccionados"></ul>
+                        <div id="total-precio" class="total-precio">Total: S/0.00</div>
+                    </fieldset>
+
+                    <button type="submit">Confirmar Pedido</button>
+                   
+                </form>
+            </section>
+        </section>
+    </main>
+    
+
+    <div id="footer-placeholder"></div>
+
+</body>
+</html>

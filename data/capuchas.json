@@ -1,74 +1,158 @@
 [
     {
-        "nombre": "Capucha Negra Básica",
-        "precioAnterior": 109.90,
-        "precio": 89.90,
-        "imagen": "images/capuchas/capucha.jpg",
-        "descripcion": "Capucha de algodón unisex, perfecta para días frescos.",
-        "oferta": true
+        "id": 1,
+        "nombre": "Nike Dunk Low Retro SE",
+        "precioAnterior": 599.90,
+        "precio": 449.92,
+        "imagen": "images/zapatillas/model-Iwebp.webp",
+        "descripcion": "Zapatillas para hombre disponibles en 4 colores. Estilo clásico con diseño urbano.",
+        "oferta": true,
+        "stock": 0,
+        "tallas": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
+        "categoria": "zapatilla"
     },
     {
-        "nombre": "Capucha Negra Básica",
-        "precioAnterior": 109.90,
-        "precio": 89.90,
-        "imagen": "images/capuchas/capucha.jpg",
-        "descripcion": "Capucha de algodón unisex, perfecta para días frescos.",
-        "oferta": true
+        "id": 2,
+        "nombre": "Nike Dunk Low Retro SE",
+        "precioAnterior": 599.90,
+        "precio": 449.92,
+        "imagen": "images/zapatillas/model-Iwebp.webp",
+        "descripcion": "Zapatillas para hombre disponibles en 4 colores. Estilo clásico con diseño urbano.",
+        "oferta": true,
+        "stock": 10,
+        "tallas": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
+        "categoria": "zapatilla"
     },
     {
-        "nombre": "Capucha Negra Básica",
-        "precioAnterior": 109.90,
-        "precio": 89.90,
-        "imagen": "images/capuchas/capucha.jpg",
-        "descripcion": "Capucha de algodón unisex, perfecta para días frescos.",
-        "oferta": true
+        "id": 3,
+        "nombre": "Nike Dunk Low Retro SE",
+        "precioAnterior": 599.90,
+        "precio": 449.92,
+        "imagen": "images/zapatillas/model-Iwebp.webp",
+        "descripcion": "Zapatillas para hombre disponibles en 4 colores. Estilo clásico con diseño urbano.",
+        "oferta": true,
+        "stock": 10,
+        "tallas": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
+        "categoria": "zapatilla"
     },
     {
-        "nombre": "Capucha Negra Básica",
-        "precioAnterior": 109.90,
-        "precio": 89.90,
-        "imagen": "images/capuchas/capucha.jpg",
-        "descripcion": "Capucha de algodón unisex, perfecta para días frescos.",
-        "oferta": true
+        "id": 4,
+        "nombre": "Nike Dunk Low Retro SE",
+        "precioAnterior": 599.90,
+        "precio": 449.92,
+        "imagen": "images/zapatillas/model-Iwebp.webp",
+        "descripcion": "Zapatillas para hombre disponibles en 4 colores. Estilo clásico con diseño urbano.",
+        "oferta": true,
+        "stock": 10,
+        "tallas": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
+        "categoria": "zapatilla"
     },
     {
-        "nombre": "Capucha Negra Básica",
-        "precioAnterior": 109.90,
-        "precio": 89.90,
-        "imagen": "images/capuchas/capucha.jpg",
-        "descripcion": "Capucha de algodón unisex, perfecta para días frescos.",
-        "oferta": true
+        "id": 5,
+        "nombre": "Nike Dunk Low Retro SE",
+        "precioAnterior": 599.90,
+        "precio": 449.92,
+        "imagen": "images/zapatillas/model-Iwebp.webp",
+        "descripcion": "Zapatillas para hombre disponibles en 4 colores. Estilo clásico con diseño urbano.",
+        "oferta": true,
+        "stock": 10,
+        "preventa": true,
+        "tallas": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
+        "categoria": "zapatilla"
     },
     {
-        "nombre": "Capucha Negra Básica",
-        "precioAnterior": 109.90,
-        "precio": 89.90,
-        "imagen": "images/capuchas/capucha.jpg",
-        "descripcion": "Capucha de algodón unisex, perfecta para días frescos.",
-        "oferta": true
+        "id": 6,
+        "nombre": "Nike Dunk Low Retro SE",
+        "precioAnterior": 599.90,
+        "precio": 449.92,
+        "imagen": "images/zapatillas/model-Iwebp.webp",
+        "descripcion": "Zapatillas para hombre disponibles en 4 colores. Estilo clásico con diseño urbano.",
+        "oferta": true,
+        "stock": 10,
+        "preventa": true,
+        "tallas": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
+        "categoria": "zapatilla"
     },
     {
-        "nombre": "Capucha Negra Básica",
-        "precioAnterior": 109.90,
-        "precio": 89.90,
-        "imagen": "images/capuchas/capucha.jpg",
-        "descripcion": "Capucha de algodón unisex, perfecta para días frescos.",
-        "oferta": true
+        "id": 7,
+        "nombre": "Nike Dunk Low Retro SE",
+        "precioAnterior": 599.90,
+        "precio": 449.92,
+        "imagen": "images/zapatillas/model-Iwebp.webp",
+        "descripcion": "Zapatillas para hombre disponibles en 4 colores. Estilo clásico con diseño urbano.",
+        "oferta": true,
+        "stock": 10,
+        "preventa": true,
+        "tallas": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
+        "categoria": "zapatilla"
     },
     {
-        "nombre": "Capucha Negra Básica",
-        "precioAnterior": 109.90,
-        "precio": 89.90,
-        "imagen": "images/capuchas/capucha.jpg",
-        "descripcion": "Capucha de algodón unisex, perfecta para días frescos.",
-        "oferta": true
-    },
-    {
-        "nombre": "Capucha Negra Básica",
-        "precioAnterior": 109.90,
-        "precio": 89.90,
-        "imagen": "images/capuchas/capucha.jpg",
-        "descripcion": "Capucha de algodón unisex, perfecta para días frescos.",
-        "oferta": true
+        "id": 8,
+        "nombre": "Nike Dunk Low Retro SE",
+        "precioAnterior": 599.90,
+        "precio": 449.92,
+        "imagen": "images/zapatillas/model-Iwebp.webp",
+        "descripcion": "Zapatillas para hombre disponibles en 4 colores. Estilo clásico con diseño urbano.",
+        "oferta": true,
+        "stock": 10,
+        "preventa": true,
+        "tallas": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+        ],
+        "categoria": "zapatilla"
     }
 ]
