@@ -1,158 +1,46 @@
 [
     {
         "id": 1,
-        "nombre": "Nike Dunk Low Retro SE",
-        "precioAnterior": 599.90,
-        "precio": 449.92,
-        "imagen": "images/zapatillas/model-Iwebp.webp",
-        "descripcion": "Zapatillas para hombre disponibles en 4 colores. Estilo clásico con diseño urbano.",
+        "nombre": "Michael Jordan 23 Spray de Colonia para Hombre",
+        "precioAnterior": 160,
+        "precio": 130,
+        "imagen": "images/lencerias/gray-23-mj.png",
+        "descripcion": "Fragancia aromática con pomelo, grosella negra y almizcle. Tamaño: 100ml. 88% de los usuarios la recomendarían. ",
         "oferta": true,
-        "stock": 0,
-        "tallas": [
-            39,
-            40,
-            41,
-            42,
-            43,
-            44
-        ],
-        "categoria": "zapatilla"
+        "stock": 1,
+        "categoria": "perfume"
     },
     {
         "id": 2,
-        "nombre": "Nike Dunk Low Retro SE",
-        "precioAnterior": 599.90,
-        "precio": 449.92,
-        "imagen": "images/zapatillas/model-Iwebp.webp",
-        "descripcion": "Zapatillas para hombre disponibles en 4 colores. Estilo clásico con diseño urbano.",
+        "nombre": "GUESS Seductive Homme Eau de Toilette",
+        "precioAnterior": 255,
+        "precio": 195,
+        "imagen": "images/lencerias/guess-spray.png",
+        "descripcion": "Fragancia masculina con notas seductoras, ideal para hombres seguros y sofisticados. Tamaño: 100ml.",
         "oferta": true,
-        "stock": 10,
-        "tallas": [
-            39,
-            40,
-            41,
-            42,
-            43,
-            44
-        ],
-        "categoria": "zapatilla"
+        "stock": 1,
+        "categoria": "perfume"
     },
     {
         "id": 3,
-        "nombre": "Nike Dunk Low Retro SE",
-        "precioAnterior": 599.90,
-        "precio": 449.92,
-        "imagen": "images/zapatillas/model-Iwebp.webp",
-        "descripcion": "Zapatillas para hombre disponibles en 4 colores. Estilo clásico con diseño urbano.",
+        "nombre": "Fragancia Masculina Eau de Cologne M-1611",
+        "precioAnterior": 169,
+        "precio": 115,
+        "imagen": "images/lencerias/mj-black.png",
+        "descripcion": "Michael Jordan 23 Spray de Colonia para Hombre con notas de especias, flores, ámbar y acordes aromáticos. Fragancia floral y elegante. Condición: Nuevo. Fabricado en Estados Unidos. Tamaño: 50ml.",
         "oferta": true,
-        "stock": 10,
-        "tallas": [
-            39,
-            40,
-            41,
-            42,
-            43,
-            44
-        ],
-        "categoria": "zapatilla"
+        "stock": 1,
+        "categoria": "perfume"
     },
     {
         "id": 4,
-        "nombre": "Nike Dunk Low Retro SE",
-        "precioAnterior": 599.90,
-        "precio": 449.92,
-        "imagen": "images/zapatillas/model-Iwebp.webp",
-        "descripcion": "Zapatillas para hombre disponibles en 4 colores. Estilo clásico con diseño urbano.",
+        "nombre": "Billetera Hombre Lee",
+        "precioAnterior": 150,
+        "precio": 110,
+        "imagen": "images/lencerias/lee-black.png",
+        "descripcion": "Billetera bicolor Lee para hombre, diseño delgado con compartimentos para tarjetas. Estilo elegante y funcional.",
         "oferta": true,
-        "stock": 10,
-        "tallas": [
-            39,
-            40,
-            41,
-            42,
-            43,
-            44
-        ],
-        "categoria": "zapatilla"
-    },
-    {
-        "id": 5,
-        "nombre": "Nike Dunk Low Retro SE",
-        "precioAnterior": 599.90,
-        "precio": 449.92,
-        "imagen": "images/zapatillas/model-Iwebp.webp",
-        "descripcion": "Zapatillas para hombre disponibles en 4 colores. Estilo clásico con diseño urbano.",
-        "oferta": true,
-        "stock": 10,
-        "preventa": true,
-        "tallas": [
-            39,
-            40,
-            41,
-            42,
-            43,
-            44
-        ],
-        "categoria": "zapatilla"
-    },
-    {
-        "id": 6,
-        "nombre": "Nike Dunk Low Retro SE",
-        "precioAnterior": 599.90,
-        "precio": 449.92,
-        "imagen": "images/zapatillas/model-Iwebp.webp",
-        "descripcion": "Zapatillas para hombre disponibles en 4 colores. Estilo clásico con diseño urbano.",
-        "oferta": true,
-        "stock": 10,
-        "preventa": true,
-        "tallas": [
-            39,
-            40,
-            41,
-            42,
-            43,
-            44
-        ],
-        "categoria": "zapatilla"
-    },
-    {
-        "id": 7,
-        "nombre": "Nike Dunk Low Retro SE",
-        "precioAnterior": 599.90,
-        "precio": 449.92,
-        "imagen": "images/zapatillas/model-Iwebp.webp",
-        "descripcion": "Zapatillas para hombre disponibles en 4 colores. Estilo clásico con diseño urbano.",
-        "oferta": true,
-        "stock": 10,
-        "preventa": true,
-        "tallas": [
-            39,
-            40,
-            41,
-            42,
-            43,
-            44
-        ],
-        "categoria": "zapatilla"
-    },
-    {
-        "id": 8,
-        "nombre": "Nike Dunk Low Retro SE",
-        "precioAnterior": 599.90,
-        "precio": 449.92,
-        "imagen": "images/zapatillas/model-Iwebp.webp",
-        "descripcion": "Zapatillas para hombre disponibles en 4 colores. Estilo clásico con diseño urbano.",
-        "oferta": true,
-        "stock": 10,
-        "preventa": true,
-        "tallas": [
-            39,
-            40,
-            41,
-            42,
-            43,
-            44
-        ],
-        "categoria": "zapatilla"
+        "stock": 1,
+        "categoria": "billetera"
     }
 ]

@@ -1,145 +1,24 @@
 [
     {
         "id": 1,
-        "nombre": "Conjunto de Encaje Negro",
-        "precioAnterior": 129.90,
-        "precio": 99.90,
-        "imagen": "images/lencerias/lenceria.avif",
-        "descripcion": "Conjunto de encaje elegante con detalles florales. Sensual y cómodo.",
+        "nombre": "Billetera Guess Wallet SE939951",
+        "precioAnterior": 300.00,
+        "precio": 250.00,
+        "imagen": "images/lencerias/GUESS-WOMAN-01.webp",
+        "descripcion": "Billetera Guess elegante y funcional, con compartimentos para tarjetas y billetes. Diseño moderno y duradero para mujeres.",
         "oferta": true,
-        "stock": 15,
-        "tallas": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL"
-        ],
-        "categoria": "lenceria"
+        "stock": 1,
+        "categoria": "billetera"
     },
     {
         "id": 2,
-        "nombre": "Conjunto de Lencería Roja",
-        "precioAnterior": 139.90,
-        "precio": 109.90,
-        "imagen": "images/lencerias/lenceria.avif",
-        "descripcion": "Set de lencería color rojo pasión, ideal para ocasiones especiales.",
+        "nombre": "Cartera Mujer Factory Foldable Y Correa De Mano Guess LE971742-BLA",
+        "precioAnterior": 1290.00,
+        "precio": 1182.50,
+        "imagen": "images/lencerias/guess-black.02.png",
+        "descripcion": "Cartera Guess para mujer, negra lisa con detalles en níquel, plegable y con correa de mano. Elegante, moderna y funcional. 8% de descuento aplicado.",
         "oferta": true,
-        "stock": 12,
-        "tallas": [
-            "XS",
-            "S",
-            "M",
-            "L",
-            "XL",
-            "XXL"
-        ],
-        "categoria": "lenceria"
-    },
-    {
-        "id": 3,
-        "nombre": "Conjunto Blanco Clásico",
-        "precioAnterior": 119.90,
-        "precio": 89.90,
-        "imagen": "images/lencerias/lenceria.avif",
-        "descripcion": "Diseño clásico y delicado en blanco. Perfecto para el día a día.",
-        "oferta": false,
-        "stock": 10,
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL"
-        ],
-        "categoria": "lenceria"
-    },
-    {
-        "id": 4,
-        "nombre": "Body de Encaje Transparente",
-        "precioAnterior": 149.90,
-        "precio": 119.90,
-        "imagen": "images/lencerias/lenceria.avif",
-        "descripcion": "Body de encaje con transparencias y escote profundo.",
-        "oferta": true,
-        "stock": 8,
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL"
-        ],
-        "categoria": "lenceria"
-    },
-    {
-        "id": 5,
-        "nombre": "Body de Encaje Transparente",
-        "precioAnterior": 149.90,
-        "precio": 119.90,
-        "imagen": "images/lencerias/lenceria.avif",
-        "descripcion": "Body de encaje con transparencias y escote profundo.",
-        "oferta": true,
-        "stock": 8,
-        "preventa": true,
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL"
-        ],
-        "categoria": "lenceria"
-    },
-    {
-        "id": 6,
-        "nombre": "Body de Encaje Transparente",
-        "precioAnterior": 149.90,
-        "precio": 119.90,
-        "imagen": "images/lencerias/lenceria.avif",
-        "descripcion": "Body de encaje con transparencias y escote profundo.",
-        "oferta": true,
-        "stock": 8,
-        "preventa": true,
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL"
-        ],
-        "categoria": "lenceria"
-    },
-    {
-        "id": 7,
-        "nombre": "Body de Encaje Transparente",
-        "precioAnterior": 149.90,
-        "precio": 119.90,
-        "imagen": "images/lencerias/lenceria.avif",
-        "descripcion": "Body de encaje con transparencias y escote profundo.",
-        "oferta": true,
-        "stock": 8,
-        "preventa": true,
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL"
-        ],
-        "categoria": "lenceria"
-    },
-    {
-        "id": 8,
-        "nombre": "Body de Encaje Transparente",
-        "precioAnterior": 149.90,
-        "precio": 119.90,
-        "imagen": "images/lencerias/lenceria.avif",
-        "descripcion": "Body de encaje con transparencias y escote profundo.",
-        "oferta": true,
-        "stock": 8,
-        "preventa": true,
-        "tallas": [
-            "S",
-            "M",
-            "L",
-            "XL"
-        ],
-        "categoria": "lenceria"
+        "stock": 1,
+        "categoria": "billetera"
     }
 ]

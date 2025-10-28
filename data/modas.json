@@ -20,27 +20,5 @@
         "oferta": false,
         "stock": 5,
         "categoria": "moda"
-    },
-    {
-        "id": 3,
-        "nombre": "Cartera Shopper Rosa Palo",
-        "precioAnterior": 189.90,
-        "precio": 149.90,
-        "imagen": "images/modas/bolso.avif",
-        "descripcion": "Cartera tipo shopper color rosa palo con compartimentos internos.",
-        "oferta": true,
-        "stock": 9,
-        "categoria": "moda"
-    },
-    {
-        "id": 4,
-        "nombre": "Cartera Shopper Rosa Palo",
-        "precioAnterior": 189.90,
-        "precio": 149.90,
-        "imagen": "images/modas/bolso.avif",
-        "descripcion": "Cartera tipo shopper color rosa palo con compartimentos internos.",
-        "oferta": true,
-        "stock": 9,
-        "categoria": "moda"
     }
 ]
