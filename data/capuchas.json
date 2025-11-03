@@ -1,11 +1,11 @@
 [
     {
         "id": 1,
-        "nombre": "Michael Jordan 23 Spray de Colonia para Hombre",
+        "nombre": "Michael Jordan 23 Spray Colonia para Hombre",
         "precioAnterior": 160,
         "precio": 130,
         "imagen": "images/lencerias/gray-23-mj.png",
-        "descripcion": "Fragancia aromática con pomelo, grosella negra y almizcle. Tamaño: 100ml. 88% de los usuarios la recomendarían. ",
+        "descripcion": "Fragancia aromática con pomelo, grosella negra y almizcle.<br><b>Tamaño: 100ml</b><br>Importado de Estados Unidos",
         "oferta": true,
         "stock": 1,
         "categoria": "perfume"
@@ -16,29 +16,51 @@
         "precioAnterior": 255,
         "precio": 195,
         "imagen": "images/lencerias/guess-spray.png",
-        "descripcion": "Fragancia masculina con notas seductoras, ideal para hombres seguros y sofisticados. Tamaño: 100ml.",
+        "descripcion": "Fragancia masculina con notas seductoras, ideal para hombres seguros y sofisticados.<br><b>Tamaño: 50ml</b><br>Importado de Estados Unidos",
         "oferta": true,
         "stock": 1,
         "categoria": "perfume"
     },
     {
         "id": 3,
-        "nombre": "Fragancia Masculina Eau de Cologne M-1611",
+        "nombre": "Michael Jordan 23 Spray M-1611",
         "precioAnterior": 169,
         "precio": 115,
         "imagen": "images/lencerias/mj-black.png",
-        "descripcion": "Michael Jordan 23 Spray de Colonia para Hombre con notas de especias, flores, ámbar y acordes aromáticos. Fragancia floral y elegante. Condición: Nuevo. Fabricado en Estados Unidos. Tamaño: 50ml.",
+        "descripcion": "Colonia para Hombre con notas de especias, flores, ámbar y acordes aromáticos. Fragancia floral y elegante.<br><b>Tamaño: 50ml</b><br>Importado de Estados Unidos",
         "oferta": true,
         "stock": 1,
         "categoria": "perfume"
     },
     {
         "id": 4,
-        "nombre": "Billetera Hombre Lee",
+        "nombre": "Billetera Lee",
         "precioAnterior": 150,
         "precio": 110,
         "imagen": "images/lencerias/lee-black.png",
-        "descripcion": "Billetera bicolor Lee para hombre, diseño delgado con compartimentos para tarjetas. Estilo elegante y funcional.",
+        "descripcion": "Billetera bicolor Lee para hombre, diseño delgado con compartimentos para tarjetas. Estilo elegante y funcional.<br>Importado de Estados Unidos",
+        "oferta": true,
+        "stock": 1,
+        "categoria": "billetera"
+    },
+    {
+        "id": 5,
+        "nombre": "Billetera Quiksilver",
+        "precioAnterior": 75,
+        "precio": 65,
+        "imagen": "images/lencerias/QUIKSILVER.jpg",
+        "descripcion": "Billetera para hombre negro/plata, Estilo casual, moderno y ligero.<br>Importado de Estados Unidos",
+        "oferta": true,
+        "stock": 1,
+        "categoria": "billetera"
+    },
+    {
+        "id": 6,
+        "nombre": "Billetera Levi's",
+        "precioAnterior": 190,
+        "precio": 170,
+        "imagen": "images/lencerias/LEVIS.jpg",
+        "descripcion": "Billetera para hombre color negro, Clasico, resistent.<br>Importado de Estados Unidos",
         "oferta": true,
         "stock": 1,
         "categoria": "billetera"
