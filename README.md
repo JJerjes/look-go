@@ -72,7 +72,7 @@ Sigue estos pasos para poner el proyecto en funcionamiento en tu máquina local:
 
 ## ✒️ Autor
 
-**Junior** - Desarrollador y Propietario de Look & Go.
+**Junior** - Desarrollador de Look & Go.
 
 ---
 
