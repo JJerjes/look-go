@@ -3,11 +3,12 @@ main {
 }
 
 h2 {
-    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    background-color: orangered;
     width: 100%;
     padding: 20px;
     text-align: l;
-
+    color: white;
 }
 
 .producto {
