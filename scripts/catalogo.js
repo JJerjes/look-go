@@ -8,10 +8,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     const path = window.location.pathname;
     let categoria = '';
 
-    if (path.includes('capuchas')) {
-        categoria = 'capuchas';
-    } else if (path.includes('lenceria')) {
-        categoria = 'lencerias';
+    if (path.includes('hombres')) {
+        categoria = 'hombres';
+    } else if (path.includes('mujeres')) {
+        categoria = 'mujeres';
     } else if (path.includes('moda')) {
         categoria = 'modas';
     } else {
