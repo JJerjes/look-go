@@ -114,15 +114,16 @@ header p {
 .nav a {
     text-decoration: none;
     display: block;
-    width: 95%;
+    width: 100%;
     padding: 12px;
     border-radius: 6px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     color: black;
-    font-weight: 500;
-    text-align: start;
+    font-weight: 400;
+    text-align: center;
     z-index: 1000;
-    background-color: whitesmoke;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nav a:hover {
@@ -151,12 +152,13 @@ main {
 }
 
 .categorias article {
+    /* border: 1px solid red; */
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 10px 5px rgba(0, 0, 0, 0.1);
     max-width: 360px;
     width: 100%;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 
 .categorias img {
@@ -196,6 +198,47 @@ main {
     background-color: red;
 }
 
+.whatsapp-float {
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    background-color: #25D366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    /* Asegura que esté por encima de otros elementos */
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-float i {
+
+    color: #333;
+}
+
+.whatsapp-float:hover i {
+    color: white;
+    /* Verde más oscuro al pasar el mouse */
+}
+
+a img {
+    text-decoration: none;
+    border: none;
+    /* elimina borde en algunos navegadores */
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    /* elimina el subrayado del enlace */
+}
+
 /*
 FOOTER
 */
@@ -206,7 +249,8 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
-    background-color: #f2f2f2d2
+    background-color: #f2f2f2d2;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .article-one,

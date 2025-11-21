@@ -29,16 +29,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 totalPrecio += precio * cantidad;
             });
-
-
-            // productos.forEach(producto => {
-            //     const { nombre, precio } = producto;
-            //     const item = document.createElement('li');
-            //     item.textContent = `${nombre}  - Precio: S/${Number(precio).toFixed(2)}`;
-            //     listaSeleccionados.appendChild(item);
-
-            //     totalPrecio += Number(precio);
-            // });
         }
 
         if (totalPrecioDiv) {
