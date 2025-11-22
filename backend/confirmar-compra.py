@@ -7,11 +7,12 @@ from email.mime.multipart import MIMEMultipart
 app = Flask(__name__)
 CORS(app)
 
-EMAIL_EMISOR = 'jerjesmariluz4@gmail.com'
+EMAIL_EMISOR = 'notifications@lookandgo.pe'
 EMAIL_PASSWORD = 'qdltvhiopsahrrwi'  # Reemplaza con tu app password real
 
 # Email adicional para logística
-EMAIL_LOGISTICA = 'maxilizarbedavila@gmail.com'  # <- Cambia aquí al email real del gerente logística
+EMAIL_OPERATIONS = 'operations.manager@lookandgo.pe'
+EMAIL_LOGISTICA = 'commercial.manager@lookandgo.pe'  # <- Cambia aquí al email real del gerente logística
 
 @app.route('/confirmar-compra', methods=['POST'])
 def enviar_confirmacion():
@@ -83,6 +84,10 @@ def enviar_confirmacion():
                 Por favor, si tuvieras algún inconveniente o cambio de horario, <strong>infórmanos con anticipación</strong> para evitar desplazamientos innecesarios.<br>
                 ¡Gracias por confiar en <strong>Look & Go</strong>!
             </p>
+            <p style="margin-top: 20px;">
+                Si tienes alguna consulta, contáctanos vía email: <strong>informes@lookandgo.pe</strong> 
+                o por WhatsApp: <a href="https://wa.me/51922762808">+51 922 762 808</a>.</p>
+
             <p style="color: #555;">Este correo es solo una confirmación. Te estaremos contactando si hay alguna novedad.</p>
         </body>
     </html>
@@ -91,7 +96,7 @@ def enviar_confirmacion():
     # Preparar correo empresa
     mensaje_empresa = MIMEMultipart()
     mensaje_empresa['From'] = EMAIL_EMISOR
-    mensaje_empresa['To'] = ", ".join([EMAIL_EMISOR, EMAIL_LOGISTICA])
+    mensaje_empresa['To'] = ", ".join([EMAIL_OPERATIONS, EMAIL_LOGISTICA])
     mensaje_empresa['Subject'] = asunto_empresa
     mensaje_empresa.attach(MIMEText(cuerpo_empresa, 'html'))
 
@@ -108,7 +113,7 @@ def enviar_confirmacion():
             servidor.login(EMAIL_EMISOR, EMAIL_PASSWORD)
 
             # Enviar correo a empresa
-            servidor.sendmail(EMAIL_EMISOR, [EMAIL_EMISOR, EMAIL_LOGISTICA], mensaje_empresa.as_string())
+            servidor.sendmail(EMAIL_EMISOR, [EMAIL_OPERATIONS, EMAIL_LOGISTICA], mensaje_empresa.as_string())
 
             # Enviar correo al cliente
             servidor.sendmail(EMAIL_EMISOR, [email_cliente], mensaje_cliente.as_string())

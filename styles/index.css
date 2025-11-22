@@ -1,10 +1,11 @@
 :root {
-    --primary--colors: ;
-    --second--colors: #F77F00;
-    --third--colors: black;
-    --fourth--color: rgb(249, 8, 8);
-    --fifth--color: #555;
-    --sixth--color: rgba(0, 0, 0, 0.2);
+    --color-primary: #F77F00;
+    --color-secondary: #333333;
+    --color-tertiary: #555555;
+    --color-accent: #F90808;
+    --color-light: #f2f2f2d2;
+    --color-overlay: rgba(0, 0, 0, 0.2);
+    --color-whatsapp: #25D366;
 }
 
 * {
@@ -24,9 +25,9 @@ body {
     min-height: 100vh;
 }
 
-/*
-HEADER
-*/
+/* =======================
+          HEADER
+======================= */
 header {
     grid-area: header;
     display: flex;
@@ -42,6 +43,7 @@ header {
 
 .logo-text {
     font-size: 2.5rem;
+    text-align: center;
     font-family: "League Script", cursive;
 }
 
@@ -90,6 +92,8 @@ header p {
     align-items: center;
 }
 
+/*NAVEGACION*/
+
 .nav {
     display: none;
     flex-direction: column;
@@ -118,25 +122,25 @@ header p {
     padding: 12px;
     border-radius: 6px;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    color: black;
+    color: var(--color-secondary);
     font-weight: 400;
     text-align: center;
     z-index: 1000;
-    background-color: white;
+    background-color: var(--color-light);
     font-family: 'Montserrat', sans-serif;
 }
 
 .nav a:hover {
-    color: orangered;
+    color: var(--color-primary);
 }
 
 .nav.open {
     display: flex;
 }
 
-/*
-MAIN
-*/
+/* =======================
+          MAIN
+======================= */
 
 main {
     grid-area: main;
@@ -152,10 +156,9 @@ main {
 }
 
 .categorias article {
-    /* border: 1px solid red; */
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 1px 10px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 10px 5px var(--color-overlay);
     max-width: 360px;
     width: 100%;
     margin: 40px auto;
@@ -163,39 +166,38 @@ main {
 
 .categorias img {
     width: 100%;
-    height: 86%;
-    display: block;
+    aspect-ratio: 4/4;
     object-fit: cover;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+
 .categorias img:hover {
     transform: scale(0.99);
-    /* Se encoge ligeramente */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    /* Un poco de sombra para dar profundidad */
+    box-shadow: 0 4px 10px var(--color-overlay);
     cursor: pointer;
 }
 
 .categorias button {
     width: 100%;
-    background-color: orangered;
-    color: white;
+    background-color: var(--color-primary);
+    color: var(--color-light);
     border: none;
     padding: 1.3rem;
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
-    z-index: 10;
     transition: background-color 0.3s;
+
+    z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .categorias button:hover {
-    background-color: red;
+    background-color: var(--color-accent);
 }
 
 .whatsapp-float {
@@ -207,7 +209,7 @@ main {
     border-radius: 50%;
     text-align: center;
     font-size: 30px;
-    background-color: #25D366;
+    background-color: var(--color-whatsapp);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -219,37 +221,34 @@ main {
 
 .whatsapp-float i {
 
-    color: #333;
+    color: var(--color-secondary);
 }
 
 .whatsapp-float:hover i {
-    color: white;
-    /* Verde más oscuro al pasar el mouse */
+    color: var(--color-light);
 }
 
 a img {
     text-decoration: none;
     border: none;
-    /* elimina borde en algunos navegadores */
     outline: none;
 }
 
 a {
     text-decoration: none;
-    /* elimina el subrayado del enlace */
 }
 
-/*
-FOOTER
-*/
+/* =======================
+          FOOTER
+======================= */
 
 footer {
     grid-area: footer;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
-    background-color: #f2f2f2d2;
+    padding: 40px;
+    background-color: var(--color-light);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -277,7 +276,7 @@ footer {
     padding: 5px 0;
 }
 
-.article-one p {
+.article-one a {
     color: var(--third--colors);
     font-size: x-small;
     font-weight: 400;
@@ -285,8 +284,9 @@ footer {
     margin: 2px 0;
 }
 
-.article-one p:hover {
-    color: var(--fifth--color);
+.article-one a:hover {
+    color: var(--color-tertiary);
+    font-weight: 500;
 }
 
 .article-two {
@@ -310,7 +310,8 @@ footer {
 }
 
 .article-two a:hover {
-    color: var(--fifth--color);
+    color: var(--color-tertiary);
+    font-weight: 500;
 }
 
 .article-two img {
@@ -337,17 +338,12 @@ footer {
 
 body.menu-open main {
     margin-top: 300px;
-    /* Ajusta según el tamaño de tu menú */
     transition: margin-top 0.3s ease;
 }
 
-/*
-MEDIA QUERY
-*/
-
-@media (min-width: 375px) {}
-
-@media (min-width: 425px) {}
+/* =======================
+      MEDIA QUERIES
+======================= */
 
 @media (min-width: 768px) {
     header {
@@ -370,7 +366,7 @@ MEDIA QUERY
         width: auto;
         top: auto;
         background: transparent;
-        backdrop-filter: none;
+
     }
 
     .nav ul {
@@ -386,7 +382,16 @@ MEDIA QUERY
         width: auto;
         border: none;
         padding: 10px 16px;
-        background-color: transparent;
+        background: transparent;
+    }
+
+    .nav {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: auto;
+        background: transparent;
     }
 
     main {
@@ -403,6 +408,10 @@ MEDIA QUERY
     .categorias article {
         flex: 1 1 30%;
         max-width: 360px;
+    }
+
+    .whatsapp-float {
+        bottom: 140px;
     }
 
     footer {

@@ -15,9 +15,12 @@
         <section class="container">        
             <section class="formulario">
                 <h2>Formulario</h2>
-                <form action="" method="post" class="form" id="contact-form">
+
+                <form id="contact-form" class="form" action="" method="post"  novalidate>
+                    
                     <fieldset>
                         <legend>Informacion Personal</legend>
+
                         <label for="name">Nombre Completo:</label>
                         <input type="text" id="name" name="name" required>
 
@@ -25,13 +28,15 @@
                         <input type="text" id="dni" name="dni" maxlength="8" pattern="\d{8}" required title="Debe contener exactamente 8 dígitos">
 
                         <label for="phone">Teléfono:</label>
-                        <input type="tel" id="phone" name="phone" required>
+                        <input type="tel" id="phone" name="phone" pattern="\d{9}" title="Debe contener 9 digitos numericos" required>
 
                         <label for="email">Correo Electronico:</label>
                         <input type="email" id="email" name="email" required>
                     </fieldset>
 
                     <fieldset>
+                        <legend>Datos para la entrega</legend>
+
                         <label for="branch">Estaciones del tren:</label>
                         <select name="branch" id="branch" required>
                             <option value="" disabled selected>Seleccione una estacion</option>
@@ -67,15 +72,14 @@
                             <option value="" disabled selected>Seleccione hora</option>
                         </select>
 
-                        <legend>Datos para la entrega</legend>
                         <label for="section">Representante de entrega:</label>
-                        <input type="text" id="section" name="section" readonly>
+                        <input type="text" id="section" name="section" readonly aria-readonly="true">
                     </fieldset>
                         
                     <fieldset>
                         <legend>Resumen de productos seleccionados</legend>
-                        <ul id="lista-seleccionados"></ul>
-                        <div id="total-precio" class="total-precio">Total: S/0.00</div>
+                        <ul id="lista-seleccionados" role="list"></ul>
+                        <div id="total-precio" class="total-precio" aria-live="polite">Total: S/0.00</div>
                     </fieldset>
 
                     <button type="submit">Confirmar Pedido</button>

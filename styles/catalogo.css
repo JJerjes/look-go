@@ -7,8 +7,9 @@ h2 {
     background-color: orangered;
     width: 100%;
     padding: 20px;
-    text-align: l;
+    text-align: center;
     color: white;
+    font-family: "Dancing Script", cursive;
 }
 
 .producto {
@@ -180,9 +181,17 @@ h2 {
 
 
 @media (min-width: 768px) {
+
+    h2 {
+        text-align: center;
+    }
+
+
     section {
         padding: 10px 0;
         display: flex;
         flex-wrap: wrap;
     }
+
+
 }
